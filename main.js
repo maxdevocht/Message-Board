@@ -34,7 +34,7 @@ onValue(messageListInDB, function(snapshot) {
             appendItemToMessageListEl(currentItem)
         }
     } else {
-        messageListEl.innerHTML = "Er zijn nog geen berichten.."
+        messageListEl.innerHTML = `<p style="font-style: italic; color: #888888">Er zijn nog geen berichten..</p>`
     }
 
 })

@@ -56,22 +56,25 @@ html, body {
     font-weight: 600; 
 }
 
-input {
+textarea {
+    resize: none;
+    width: 100%;
     min-height: 100px;
     margin-bottom: .5rem;
     border-radius: 5px;
     border: none;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    
+    padding: .5rem;
+    font-family: 'Rubik', sans-serif;
 }
 
-input::placeholder {
+textarea::placeholder {
     position: absolute;
     top: 0;
     left: 0;
     padding: .5rem;
+    font-family: 'Rubik', sans-serif;
 }
-
 
 button {
     min-height: 40px;
@@ -94,6 +97,12 @@ button:hover {
 p {
     font-weight: 400;
     margin-bottom: 1.5rem;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ul {
