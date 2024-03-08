@@ -69,8 +69,6 @@ textarea {
 }
 
 textarea::placeholder {
-
-
     font-family: 'Rubik', sans-serif;
 }
 
@@ -105,7 +103,7 @@ p {
 
 ul {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     gap: 10px;
     padding: 0;
 }
