@@ -42,6 +42,12 @@ html, body {
     margin: 30px auto;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .title {
     width: 100%;
     margin-bottom: 1rem;
